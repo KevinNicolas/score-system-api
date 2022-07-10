@@ -1,0 +1,8 @@
+# PERSONAL DATA
+@baseURL = http://127.0.0.1:3030
+@endpoint = personal-data
+@personalDataUrl = {{baseURL}}/{{endpoint}}
+
+###
+
+GET {{personalDataUrl}}/42790366

@@ -1,6 +1,6 @@
 import { RootGet } from '@controllers'
 import { FastifyInstance } from 'fastify'
-import { personalDataRoute } from './personal-data'
+import { personalDataRoute } from './personal-info'
 import { userRoutes } from './user.route'
 
 export const defineRoutes = (fastify: FastifyInstance) => {
