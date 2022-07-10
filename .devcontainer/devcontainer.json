@@ -1,0 +1,25 @@
+{
+  "name": "score-system-backend",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "api",
+  "workspaceFolder": "/api",
+  "shutdownAction": "stopCompose",
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "extensions": [
+    "ExodiusStudios.comment-anchors",
+    "mikestead.dotenv",
+    "usernamehw.errorlens",
+    "eamodio.gitlens",
+    "ms-vscode.vscode-typescript-next",
+    "christian-kohler.path-intellisense",
+    "esbenp.prettier-vscode",
+    "2gua.rainbow-brackets",
+    "humao.rest-client",
+    "EditorConfig.EditorConfig",
+    "kakumei.ts-debug"
+  ],
+  "postCreateCommand": "yarn && exit"
+}

@@ -1,0 +1,20 @@
+version: "1.0.0"
+
+services:
+  api:
+    container_name: score-system-api
+    build:
+      context: .
+      args:
+        GITUSERNAME: Kevin-Leguiza-Gaggero
+        GITEMAIL: nicolaskevinleguiza@gmail.com
+        SSHFILENAME: docker-key
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - postgres
+    ports:
+      - 3030:3000
+    volumes:
+      - .:/api
+    tty: true

@@ -1,0 +1,14 @@
+*.js
+*.yml
+*.json
+*.lock
+*.env
+*.env.*
+
+.prettierrc
+.editorconfig
+Dockerfile
+
+.devcontainer
+node_modules
+endpoints
